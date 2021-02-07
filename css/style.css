@@ -1,0 +1,397 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    width: 100%;
+}
+.header img{
+    float: left;
+    margin-left: 10px;
+}
+.header h4{
+    float: left;
+    font-size: 20px;
+    color: #1c1e2e;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.fixed-width{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.left-box{
+    width: 55%;
+    float: left;
+}
+.box-1{
+    width: 90%;
+}
+.box-2{
+    width: 90%;
+}
+.box-1 h1{
+    font-size: 40px;
+    color: #1c1e2e;;
+}
+.box-1 p{
+    font-family: 'Roboto',sans-serif;
+     color:#4c527d;
+     font-size: 18px;
+}
+.box-2 .buttons{
+    width: 100%;
+}
+a{
+    font-family: 'Roboto',sans-serif;
+    background-color: #e55713;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 15px;
+    float: left;
+}
+.box-2 .buttons .more{
+    border: 2px solid #e55713;
+    color:#e55713;
+    background-color: transparent;
+    float: left;
+}
+.box-2 .left-border{
+    width: 90%;
+    border-left: 4px solid #f5a782;
+    padding: 10px;
+    font-style: italic;
+    background-attachment: #f6f8fc;
+}
+.box-2 .left-border p{
+    font-size: 14px;
+    color: #4c527d;
+}
+.yash{
+    width: 80%;
+}
+.yash img{
+    width: 10%;
+    border-radius: 100%;
+    float: left;
+}
+.yash p{
+    float: left;
+    font-size: 13px;
+    margin-left: 10px;
+    color: #1c1e2e;
+    font-family: 'Roboto',sans-serif;
+}
+
+.right-box{
+    float: right;
+    width: 40%;
+}
+.right-box img{
+    width: 100%;
+}
+.full{
+    width: 100%; 
+    background-color:#f6f8fc;
+}
+.six-box{
+    text-align: center;
+}
+.six-box h1{
+    color: #1c1e2e;
+}
+.six-box p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c527d;
+}
+.six-box .box{
+    width: 30%;
+    margin-bottom: 30px;
+    float: left;
+    margin-right: 5%;
+}
+.six-box .right{
+    float: right;
+    margin: 0;
+}
+.six-box .box .fa{
+    font-size: 40px;
+    color:#e55713 ;
+}
+.six-box .box p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.two-box{
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 50px;
+}
+.two-box h1{
+    color: #1c1e2e;
+}
+.two-box .box{
+    width:50%;
+    float: left;
+}
+.two-box .right{
+    width: 45%;
+    float: right;
+    margin-right: 0;
+    text-align: center;
+}
+.two-box button{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #e55713;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.two-box .box img{
+    width: 100%;
+}
+.two-box .right .fa{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #7FCDB8;
+}
+.two-box .right p{
+    font-size: 18px;
+    color: #4c527d;
+    font-family: 'Roboto',sans-serif;
+}
+.text h1{
+     color: #1c1e2e;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c527d;
+}
+.text .team{
+    max-width: 600px;
+    background-color: #f6f8fc;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+.team .fa{
+    font-size: 20px;
+    color: #7FCDB8;
+    margin-right: 10px;
+}
+.team h2{
+    font-size: 20px;
+}
+.team p{
+    color: #4c527d;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.form{
+    background-color: #f6f8fc;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.form h1{
+    color: #1c1e2e;
+}
+.form p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c527d;
+}
+.form input[type=email]{
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    border:1px solid #4c527d;
+}
+.form input[type=submit]{
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    background-color: #e55713;
+    border: none;
+    border-radius: 3px;
+}
+.review{
+    text-align: center;
+}
+.review h1{
+    color: #1c1e2e;
+}
+.review p{
+    font-size: 16px;
+    color: #4c527d;
+    font-weight: 600;
+}
+.review .you{
+    width: 30%;
+    background-color: #f6f8fc;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.review .right{
+    float: right;
+    margin-right: 0;
+}
+.review .you .jon{
+    width: 78%;
+}
+.spec{
+    margin-left: 180px;
+}
+.review .you .fa{
+    color: white;
+    background-color: #f5a782;
+    padding: 8px;
+    border-radius: 100%;
+    position: relative;
+    top: -12px;
+}
+.review .you .jon img{
+    float: left;
+    width: 15%;
+}
+.review .you .jon p{
+    float: left;
+    text-align: left;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.social{
+       background-color: #e55713;
+       text-align: center;
+       padding: 50px 0px;
+       color: white;
+}
+.social img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.social .fa{
+    font-size: 25px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.social p{
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+}
+.social p span{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width:768px){
+
+    .left-box{
+        width: 100%;
+        clear: both;
+    }
+    .box-1{
+         margin-left: 15px;
+    }
+    .box-2{
+        margin-left: 15px;
+    }
+    .box-1 h1{
+        font-size: 30px;
+    }
+    .box-1 p{
+         font-size: 15px;
+    }
+    .box-2 .buttons{
+        width: 100%;
+    }
+    .box-2 .buttons a{
+        clear: both;
+        margin-bottom: 20px;
+    }
+    .box-2 .buttons .more{
+        clear: both;
+    }
+    .yash p{
+        margin-top: 5px;
+    }
+    .yash img{
+        width: 15%; 
+    }
+    .right-box{
+        clear: both;
+        width: 100%;
+    }
+    .six-box .box{
+        width: 100%;
+        clear: both;
+        margin-right: 0;
+    }
+    .six-box .right{
+        clear: both;
+        margin: 0;
+    }
+    .fixed-width{
+        padding: 10px 0px;
+    }
+    .two-box .box{
+        width:100%;
+        clear: both;
+    }
+    .two-box .right{
+        width: 100%;
+        clear: both;
+        margin-right: 0;
+    }
+    .text .team{
+        width: 100%;
+        text-align: center;
+    }
+    .form{
+        width: 100%;
+    }
+    .form input[type=email]{
+        width: 60%;
+    }
+
+    .review .you{
+        width: 100%;
+        background-color: #f6f8fc;
+        clear: both;
+    }
+    .review .right{
+       clear: both;
+        margin-right: 0;
+    }
+    .spec{
+        clear: both;
+        margin: 0;
+    }
+
+    
+
+}
