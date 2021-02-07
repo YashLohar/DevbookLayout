@@ -310,9 +310,7 @@ a{
     letter-spacing: 1px;
 }
 @media only screen and (max-width:768px){
-     .import{
-         width: 90%;
-     }
+     
     .left-box{
         width: 100%;
         clear: both;
