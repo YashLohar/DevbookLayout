@@ -289,6 +289,7 @@ a{
        text-align: center;
        padding: 50px 0px;
        color: white;
+       width: 100%;
 }
 .social img{
     width: 120px;
@@ -390,6 +391,9 @@ a{
     .spec{
         clear: both;
         margin: 0;
+    }
+    .social{
+        width: 100%;
     }
 
 }
