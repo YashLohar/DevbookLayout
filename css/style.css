@@ -381,7 +381,8 @@ a{
         width: 100%;
         background-color: #f6f8fc;
         clear: both;
-        margin: 0;
+        margin-right: 0;
+        margin-bottom:50px;
     }
     .review .right{
        clear: both;
