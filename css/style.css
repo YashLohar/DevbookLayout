@@ -311,15 +311,10 @@ a{
 @media only screen and (max-width:768px){
 
     .left-box{
-        width: 100%;
+        width: 90%;
         clear: both;
     }
-    .box-1{
-         margin-left: 15px;
-    }
-    .box-2{
-        margin-left: 15px;
-    }
+    
     .box-1 h1{
         font-size: 30px;
     }
