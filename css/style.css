@@ -289,7 +289,6 @@ a{
        text-align: center;
        padding: 50px 0px;
        color: white;
-       width: 100%;
 }
 .social img{
     width: 120px;
@@ -310,12 +309,17 @@ a{
     letter-spacing: 1px;
 }
 @media only screen and (max-width:768px){
-     
+
     .left-box{
-        width: 90%;
+        width: 100%;
         clear: both;
     }
-    
+    .box-1{
+         margin-left: 15px;
+    }
+    .box-2{
+        margin-left: 15px;
+    }
     .box-1 h1{
         font-size: 30px;
     }
@@ -387,8 +391,7 @@ a{
         clear: both;
         margin: 0;
     }
-    .social{
-        width: 100%;
-    }
+
+    
 
 }
