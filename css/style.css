@@ -10,6 +10,7 @@ body{
 }
 .header{
     width: 100%;
+    background-color:#7FCDB8 ;
 }
 .header img{
     float: left;
@@ -262,7 +263,7 @@ a{
     width: 78%;
 }
 .spec{
-    margin-left: 180px;
+    margin:0px 100px;
 }
 .review .you .fa{
     color: white;
@@ -381,11 +382,11 @@ a{
         width: 100%;
         background-color: #f6f8fc;
         clear: both;
-        margin:0px;
+        margin: 0;
     }
     .review .right{
        clear: both;
-        margin:0px;
+        margin-right: 0;
     }
     .spec{
         clear: both;
